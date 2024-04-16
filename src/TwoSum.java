@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class TwoSum {
     public static void main(String[] args) {
         int[] nums = {3,3};
         int target = 6;
 
-        System.out.println(getTwoSum(nums,target));
+        System.out.println(Arrays.toString(getTwoSum(nums, target)));
     }
     public static int[] getTwoSum(int[] nums, int target) {
         ArrayList<Integer> response = new ArrayList<>(2);
